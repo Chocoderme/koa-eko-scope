@@ -1,4 +1,4 @@
-import { EkoController } from "../eko/eko";
+import { EkoController } from "koa-eko";
 import { IEkoScopedController } from "./interfaces/IEkoScopedController";
 import { IMiddleware } from "koa-router";
 import { isNullOrUndefined } from "util";
