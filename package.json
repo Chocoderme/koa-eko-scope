@@ -1,0 +1,40 @@
+{
+  "name": "koa-eko-scope",
+  "version": "1.0.0",
+  "description": "Scoped and fielded routes for koa-eko",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chocoderme/koa-eko-scope.git"
+  },
+  "keywords": [
+    "koa",
+    "koa-eko",
+    "koa-router"
+  ],
+  "author": "Elliott Zwertvaegher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chocoderme/koa-eko-scope/issues"
+  },
+  "homepage": "https://github.com/Chocoderme/koa-eko-scope#readme",
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-router": "^7.4.0",
+    "reflect-metadata": "^0.1.12",
+    "sequelize": "^4.38.0",
+    "sequelize-typescript": "^0.6.5",
+	"koa-eko": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.3.4",
+    "@types/reflect-metadata": "^0.1.0",
+    "@types/koa": "^2.0.46",
+    "@types/koa-router": "^7.0.28",
+    "ts-node": "^6.1.1",
+    "typescript": "^2.9.2"
+  }
+}
